@@ -29,4 +29,4 @@ elif calcPesoAltura > float(pesoXaltura[4][0]) and calcPesoAltura <= float(pesoX
 elif calcPesoAltura > float(pesoXaltura[5][0]) and calcPesoAltura <= float(pesoXaltura[5][1]):
   tabelaRecomendada = pesoXaltura[5][2]
 
-resposta = print(f'Olá {sNome}, seu peso é: {iPeso}, sua altua é: {iAltura}, seu IMC é: {calcPesoAltura:.2f} e você está: {tabelaRecomendada}')
+resposta = print(f'Olá {sNome}, seu peso é: {sPeso}, sua altua é: {sAltura}, seu IMC é: {calcPesoAltura:.2f} e você está: {tabelaRecomendada}')
